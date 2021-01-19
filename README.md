@@ -13,7 +13,8 @@ first to form a horizontal, vertical, or diagonal line of five of one's own disc
 
 **How to Run**
 1. Clone/download the project
-2. Run the server class first, followed by the client (best way would be compile the server class using 'javac FiveInARow.java' followed by 'java FiveInARow.java' ro run it. You can then run the client class in your preferred IDE.
+2. Run the server class first, followed by the client (best way would be compile the server class using 'javac FiveInARow.java' followed by 'java FiveInARow.java' in a command prompt to run it). You can then run the client class in your preferred IDE.
+3. Descriptions of the various features can be found in each class
 
 ---
 
@@ -24,3 +25,8 @@ One issue I ran into was trying to displaying the game board on the client side.
 - https://www.google.com/search?q=sending+objects+over+socket+java&oq=sending+objects+&aqs=chrome.0.0j69i57j0l6.4745j0j4&sourceid=chrome&ie=UTF-8
 
 Unfortunately, this is something I wasn't able to achieve in the given time. It is something I would be looking to improve going forward.
+
+**Things to improve**
+- Host the server - eliminates the need to locally run it
+- Add the ability to define a board size
+- Improve UI - use of Java swing?
